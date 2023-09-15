@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.box-container{
+  display: flex;
+}
+
+.box{
+  padding:20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline;
+}
+
+.text-span{
+  width: 1px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.printout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
